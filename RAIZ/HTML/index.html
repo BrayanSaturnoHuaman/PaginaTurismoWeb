@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SANCRISTOBAL</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/RAIZ/CSS/Estilos.css">
+    <link rel="stylesheet" href="/RAIZ/CSS/Responsivo.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/IMAGENES/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/IMAGENES/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/IMAGENES/favicon-16x16.png">
+    <!--<link rel="manifest" href="/site.webmanifest"> -->
+</head>
+<body onload='if (window.location.href.substr(window.location.href.length - 6) == "#about") { introAboutLogoTransition(); }'>
+    <!--Barra de navegacion == vista principal-->
+    <nav class="navbar glass" style="height: 70px;">
+        <span><a href="#home" style="display:flex; align-items: center;"><img class="img2" src="/IMAGENES/mountain.png" width="40"
+            style="margin: -25px -10px -25px -20px"><h1 class="logo">&nbsp;Sancristobal</h1></a></span>
+        <ul class="nav-links">
+            <li><a href="#menu" id="pri" class="active cir_border">Menu</a></li>
+            <li><a href="#eventos"  id="sec" class="cir_border">Excursiones</a></li>
+            <li><a href="#explorar" id="tri" class="cir_border">Explorar</a></li>
+            <li><a href="#nosotros" id="quad" class="cir_border">Nosotros</a></li>
+            <li><a href="#contribuciones" id="quint" class="cir_border">Contribuciones</a></li>
+            <li><a href="#contacto" id="hex" class="cir_border">Contacto</a></li>
+            <li><a href="/RAIZ/HTML/Logeo.html" id="hex" class="cir_border">Login</a></li>
+            <!-- Modo claro y oscuro
+                <li><div>
+                <input type="checkbox" class="checkbox dark" id="checkbox">
+              <label for="checkbox" class="label">
+                <i class="fa fa-moon-o"></i>
+                <i class='fa fa-sun-o'></i>
+                <div class='ball'>
+              </label>
+            </div></
+            li>-->
+        </ul>
+        <img src="/IMAGENES/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+    <!--barra de navegacion-->
+    <!-- Menu-->
+    <header id="menu"> 
+        <div class="header-content">
+            <h2  id="quote">Explore la naturaleza</h2>
+            <div class="line"></div>
+            <h1 >Un maravilloso regalo </h1>
+            <a href="#nosotros" class="ctn" onclick='removeall(); $("#quad").css("border", "2px solid whitesmoke"); $("#quad").css("border-radius", "20px");'>Leer mas</a>
+        </div>
+    </header>
+    <!--Eventos-->
+    <section class="events" id="eventos">
+        <div class="container">
+        <div class="title">
+            <h1 class="dark">Proximos eventos</h1>
+            <div class="line"></div>
+        </div>
+        <!--Primer evento-->
+        <div class="row">
+            <article class="card col">
+                <img class="card-img" src="/IMAGENES/caminata1.jpg">
+                <h4 class="dark">Caminata al centro arqueologico</h4>
+                <p class="font-color">La caminata al centro arqueologico es, sin duda, una de las actividades favoritas de los visitantes.</p>
+                <a href="#" class="ctn">Detalles</a>
+            </article>
+            <!--Segundo evento-->
+            <article class="card col">
+                <img src="/IMAGENES/velada.jpg">
+                <h4 class="dark">Noches de velada</h4>
+                <p class="font-color">Si tienes un grupo de viaje puedes quedarte a domir una noche en las pequeñas chozas que tiene se tiene en el centro arqueologico.</p>
+                <a href="#" class="ctn">Detalles</a>
+            </article>
+            <!--Tercer evento-->
+            <article class="card col">
+                <img src="/IMAGENES/imagen2.jpg">
+                <h4 class="dark">Inti Raymi</h4>
+                <p class="font-color">El 24 y 25 de junio de cada se celebra el Inti Raymi, una tradicion sin igual dentro de la provincia. Ahi se exponen todas las costumbres de la localidad.</p>
+                <a href="#" class="ctn">Detalles</a>
+            </article>
+        </div>
+    </div>
+    </section>
+    <!--Hasta aqui son los eventos-->
+
+    <!--Explorar-->
+    <section class="explore" id="explorar">
+        <div class="explore-content">
+            <h1>EXPLORE SAN CRISTOBAL</h1>
+            <div class="line"></div>
+            <p>“Viajar hace que uno sea modesto. ves que lugar tan pequeño ocupas en el mundo”– Gustav Flaubert
+            </br>Explorar hará que quieras empacar tu bolso, reservar y viajar. </p>
+            <a href="#" class="ctn">Explorar mas</a>
+        </div>
+    </section>
+    <!--Hasta aqui es Explorar-->
+
+    <!--Excursiones-->
+    <section class="tours">
+        <div class="container row">
+            <div class="col content-col">
+                <h1 class="font-color">PROXIMOS VIAJES Y DESTINOS</h1>
+                <div class="line"></div>
+                <p>Miercoles 27 sept 2023 : Tour Desde la terminal terrestre de Yanahuanca. </br>
+                   Domingo 1 oct 2023 : Tour desde la ciudad de Cerro de Pasco.</br>
+                   Miercoles 4 oct 2023 : Tour desde la ciudad de Lima. </br> 
+                    y mucho mas ......
+                 </p>
+                <a href="#" class="ctn">Saber mas</a>
+            </div>
+            <!--Imagenes de proximos viajes y destinos-->
+            <div class="image-col">
+                <div class="image-gallery">
+                    <img src="/IMAGENES/imagen3.jpg" alt="">
+                    <img src="/IMAGENES/imagen4.jpg" alt="">
+                    <img src="/IMAGENES/imagen5.jpg" alt="">
+                    <img src="/IMAGENES/imagen6.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <br><br><br><br>
+    </section>
+    <!--Hasta aqui las excursiones-->
+
+    <!-- Sobre Nosotros -->
+    <section id="nosotros">
+        <div class="title">
+            <h1 class="font-color">Sobre nosotros</h1>
+            <div class="line"></div>
+        </div>
+        <br>
+        <div id="about_us"><!-- about_us -->
+            <div class="boxx">
+                <div class="containerx">
+                    <input type="radio" name="slider" id="item-1" checked>
+                    <input type="radio" name="slider" id="item-2">
+                    <input type="radio" name="slider" id="item-3">
+                  <div class="cards">
+                    <label class="cardt" for="item-1" id="col-img-1">
+                      <img src="/IMAGENES/carousel1.jpg">
+                    </label>
+                    <label class="cardt" for="item-2" id="col-img-2">
+                      <img src="/IMAGENES/carousel2.jpg">
+                    </label>
+                    <label class="cardt" for="item-3" id="col-img-3">
+                      <img src="/IMAGENES/carousel3.jpg">
+                    </label>
+                  </div>
+                </div>
+                <span id="about-quad"><a href="#menu"><center><h1 style="font-family: var(--ff-montserrat); color: white;">Find that</h1><br><img class="img2" src="./img/mountain_dark.jpg" width="200" style="border-radius: 12%;"><br><h1 class="logo" style="font-size: 50px;">ADVENTURE</h1></a></center></span>
+            </div>
+        </div>
+    </section>
+    <!-- Hasta aqui sobre nosotros -->
+
+    <!-- Contribuciones -->
+    <div class="title">
+        <h1 class="font-color">Contribuidores </h1>
+        <div class="line"></div>
+    </div>
+    <section class="contributors" id="contribuciones">
+         <!-- Primer contribuidor == MUNICIPIO DE LA LOCALIDAD SAN CRISTOBAL DE CHAUPIMARCA-->
+        <div class="concard">
+            <img src="https://scontent.flim26-1.fna.fbcdn.net/v/t39.30808-6/332306426_1286126225304380_7468913082091286504_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=a2f6c7&_nc_eui2=AeEyMtUWwJA-cK0uxt11pME4YPRIEcDvy_Ng9EgRwO_L8z1SyzsxcTQ4NrZfzwhVUnosieueJXxik4qkTGb3sWSR&_nc_ohc=xtGJOVNGAK0AX_zDXTi&_nc_ht=scontent.flim26-1.fna&oh=00_AfAGjS_2tJTrccjgUDi-BIgasCUPwv03lxXpkiyNCBA08A&oe=651779C0" alt="profile-picture" class="pfp">
+            <div class="text">
+                <h1>Municipio Local</h1>
+            </div>
+            <div class="logolink">
+                <a href="https://www.facebook.com/MunicipalidadSanCristobalDeChaupimarca" target="_blank"><img src="/IMAGENES/facebook.png"
+                        alt="Facebook-Logo" class="facebook-logo"></a>
+            </div>
+        </div>
+        <!-- Segundo contribuidor == MUNICIPALIDAD DISTRITAL DE TAPUC-->
+        <div class="concard">
+            <img src="https://scontent.flim26-1.fna.fbcdn.net/v/t39.30808-6/339579545_1611400689285323_5930704285623611495_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=a2f6c7&_nc_eui2=AeEA7CgT9IIVobOE5PlROp3DFdeN_MLsnJEV1438wuyckU71lxlR1vfI5_Y2qJlqXMqTMgmeT2FJg9YBhrqSCmw0&_nc_ohc=ddLWzQEW90sAX_xkYfx&_nc_ht=scontent.flim26-1.fna&oh=00_AfBlgtMZsBjJ_EjdGlZc05ZxBwAx_B1Ys5RLBFTyauILyA&oe=6518D398" alt="profile-picture" class="pfp">
+            <div class="text">
+                <h1>Municipalidad Distrital</h1>
+            </div>
+            <div class="logolink">
+                <a href="https://www.facebook.com/MunitapucOficial" target="_blank"><img src="/IMAGENES/facebook.png"
+                        alt="Facebook-Logo" class="facebook-logo"></a>
+            </div>
+        </div>
+        <!-- Tercer contribuidor == MUNICIPALIDAD PROVINCIAL DANIEL ALCIDES CARRION-->
+        <div class="concard">
+            <img src="https://scontent.flim26-1.fna.fbcdn.net/v/t39.30808-6/378139906_275621688742154_7245410955365694824_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a2f6c7&_nc_eui2=AeGZLrjVvhWTV41TPkMWtOAktsjmf9rxNJ22yOZ_2vE0ncIVFDLaGhwohXUFtTVWEF7y9xUMvNzZrfSh-7kBBFwe&_nc_ohc=61hnGQx1dM8AX9SsoZn&_nc_ht=scontent.flim26-1.fna&oh=00_AfCQs8UIFntB_KNvxqPRTAAjcVcjarbMO30Ku5c0CbDHRQ&oe=65193319" alt="profile-picture" class="pfp">
+            <div class="text">
+                <h1>Municipalidad Provincial</h1>
+            </div>
+            <div class="logolink">
+                <a href="https://www.facebook.com/profile.php?id=100088829752630" target="_blank"><img src="/IMAGENES/facebook.png" alt="facebook-logo"
+                        class="facebook-logo"></a>
+            </div>
+        </div>
+        <!-- Autor == CREADOR DE LA PAGINA WEB -->
+        <div class="concard">
+            <img src="https://scontent.flim26-1.fna.fbcdn.net/v/t39.30808-6/368330035_833145541790128_6010203903403674975_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=a2f6c7&_nc_eui2=AeH7VbvrLUEHZeGVU8QDVMuEBgUOza27c6QGBQ7NrbtzpPrHhCsHrFBsUx891NE7j6O9ixR9aKmhXDBJQVuKU_r5&_nc_ohc=nnIvZbp_RlwAX-OonX2&_nc_ht=scontent.flim26-1.fna&oh=00_AfAK1OxdiQjpHOwEpWrpTJSHiNOJE3zjs8L0i6nLgDNGHA&oe=65186B6D" alt="profile-picture" class="pfp">
+            <div class="text">
+                <h1>Brayan Saturno</h1>
+            </div>
+            <div class="logolink">
+                <a href="https://www.facebook.com/brayan.saturnohuaman.5" target="_blank"><img src="/IMAGENES/facebook.png" alt="facebook-logo"
+                        class="facebook-logo"></a>
+            </div>
+        </div>
+        <!-- Fotografo == EL QUE TOMO LAS FOTOGRAFIAS-->
+        <div class="concard">
+            <img src="https://scontent.flim26-1.fna.fbcdn.net/v/t39.30808-6/374649983_1374634939932479_6106832521790582687_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=a2f6c7&_nc_eui2=AeGR-KAjRQNxuT2ZC5YR0x8saYgLm48P9Y9piAubjw_1jzfJ4osXYPLLzUC29LnGYO3AIpj7jX0sQ4hnslJrjji4&_nc_ohc=4J0zNZ6exT0AX9B8LZ5&_nc_ht=scontent.flim26-1.fna&oh=00_AfBgU0zz1bXLD34s16VRKcqsNAYi7UTvY_pp2z6OMVG-mw&oe=65180C88" alt="profile-picture" class="pfp">
+            <div class="text">
+                <h1>Luis Merino</h1>
+            </div>
+            <div class="logolink">
+                <a href="https://www.facebook.com/luis.merinohuaman.7" target="_blank"><img src="/IMAGENES/facebook.png"
+                        alt="Facebook-Logo" class="facebook-logo"></a>
+            </div>
+        </div>
+        <!-- Guia turistica -->
+        <div class="concard">
+            <img src="https://scontent.flim26-1.fna.fbcdn.net/v/t1.6435-1/151385849_114131067340926_3454027882178565041_n.jpg?stp=c0.7.200.200a_dst-jpg_p200x200&_nc_cat=109&ccb=1-7&_nc_sid=7206a8&_nc_eui2=AeGFyC7A24adL3gwJek4wHAgnWJDNBp4vBSdYkM0Gni8FPVr5qoN2eEWbPD6DcSWAcF1JgyzKJ2MR5-QNNBGrAaZ&_nc_ohc=tm2jHbTpLKIAX-LVK87&_nc_ht=scontent.flim26-1.fna&oh=00_AfDHIhi1k2DBupvKKD4SyotBPMm6pkMVlVO6eWOGnqtmdw&oe=653ACAE1" alt="profile-picture" class="pfp">
+            <div class="text">
+                <h1>Victoria Merino</h1>
+            </div>
+            <div class="logolink">
+                <a href="https://www.facebook.com/victoria.merinohuaman.18" target="_blank"><img src="/IMAGENES/facebook.png"
+                        alt="Facebook-Logo" class="facebook-logo"></a>
+            </div>
+        </div>
+    </section>
+    <!-- Hasta aqui las contribuciones -->
+    <!-- contacto -->
+    <section id="contacto">
+        <div class="title">
+            <h1 class="font-color">Contactanos</h1>
+            <div class="line"></div>
+        </div>
+        <div class="contact_us">
+            <form class="cform" action="" method="post">
+                <div class="crow-message">
+                    <h1 class="color">Envianos un mensaje</h1>
+                    <div></div>
+                </div>
+                <div class="crow-in">
+                        <input type="text" id="name" name="name" placeholder="Tu nombre">
+                        <input type="text" id="email" name="email" placeholder="Tu email">
+                </div>
+                <div class="crow">
+                    <div class="ccol-left">
+                        <select name="country" id="country">
+                            <option value="India">Peru</option>
+                            <option value="Russia">Rusia</option>
+                            <option value="usa">USA</option>
+                            <option value="Japan">Japon</option>
+                            <option value="France">Argentina</option>
+                            <option value="Brazil">Brazil</option>
+                            <option value="España">España</option>
+                            <option value="Mexico">Mexico</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="crow">
+                    <div class="ccol-left">
+                        <textarea type="text" id="remarks" name="remarks" placeholder="Tus comentarios....." style="height: 150px;"></textarea>
+                    </div>
+                </div>
+                <input class="crow-s" type="submit" value="Enviar">
+            </form>
+            <div class="cbox">
+                <div>
+                    <p class="cbox-message">¿Prefieres otra forma?<br>Comuníquese con nosotros utilizando los detalles que se proporcionan a continuación</p>
+                <div class="cbox-line"></div>
+                </div>
+                <div class="c_boxx">
+                    <a href="mailto:turismo@sancristobal.com.pe"><i class="fa fa-envelope"></i>
+                        Email: turismo@sancristobal.com.pe
+                    </a>
+                </div>
+                <div class="c_boxx">
+                    <a href="tel:+51-12345-67890"><i class="fa fa-phone"></i>
+                        Telefono: (+51) 12345-67890
+                    </a>
+                </div>
+                <div class="c_boxx">
+                    <a href="#"><i class="fa fa-map-marker"></i>
+                        Ubicacion: San Cristobal de Chaupimarca - Tapuc - Daniel Alcides Carrion - Pasco - Peru
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hasta aqui contactos  -->
+    <!-- Deslizamiento hacia arriba -->
+    <i class="fa fa-chevron-up" onclick="topFunction()" id="upbtn"></i>
+    <!-- Final -->
+    <!--Pie de pagina-->
+    <section class="footer">
+        <span>Creado por Brayan Saturno | &#169 2023 Todos los derechos reservados.</span>
+        <!--REDES SOCIALES-->
+        <div class="social">
+            <li>
+                <a href="https://www.facebook.com/brayan.saturnohuaman.5" target="_blank" rel="noreferrer"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/brayansh_14/" target="_blank" rel="noreferrer"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/brayan-saturno-huaman-6285441a9/"_blank" rel="noreferrer"><i class="fa fa-linkedin-square"></i></a>
+            </li>
+        </div>
+    </section>
+    <!--Hasta aqui el pie de pagina-->
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="/RAIZ/JAVASCRIPT/script.js"></script>
+</body>
+</html>
