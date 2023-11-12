@@ -257,6 +257,7 @@ section {
 .events .ctn {
   margin-top: 30px;
 }
+/*MENU PRINCIPAL*/
 
 /* explorar */
 .explore {
@@ -411,8 +412,8 @@ section {
   color: #fc036b;
 }
 
-/* Contribuidores */
-.contributors {
+/* Experiencias */
+.experiencias {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
