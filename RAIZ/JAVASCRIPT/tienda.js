@@ -4,7 +4,7 @@ let iconCart = document.querySelector('.icon-cart');
 let iconCartSpan = document.querySelector('.icon-cart span');
 let body = document.querySelector('body');
 let closeCart = document.querySelector('.close');
-let products = [];
+let Tienda = [];
 let cart = [];
 
 
@@ -16,12 +16,12 @@ closeCart.addEventListener('click', () => {
 })
 
     const addDataToHTML = () => {
-    // remove datas default from HTML
+    // remover datos por defecto de HTML
 
-        // add new datas
-        if(products.length > 0) // if has data
+        // agregar nuevos datos
+        if(Tienda.length > 0) // si es un dato
         {
-            products.forEach(product => {
+            Tienda.forEach(product => {
                 let newProduct = document.createElement('div');
                 newProduct.dataset.id = product.id;
                 newProduct.classList.add('item');
@@ -29,7 +29,7 @@ closeCart.addEventListener('click', () => {
                 `<img src="${product.image}" alt="">
                 <h2>${product.name}</h2>
                 <div class="price">$${product.price}</div>
-                <button class="addCart">Add To Cart</button>`;
+                <button class="addCart">Añadir a la cesta</button>`;
                 listProductHTML.appendChild(newProduct);
             });
         }
@@ -72,12 +72,12 @@ const addCartToHTML = () => {
             newItem.classList.add('item');
             newItem.dataset.id = item.product_id;
 
-            let positionProduct = products.findIndex((value) => value.id == item.product_id);
-            let info = products[positionProduct];
+            let positionProduct = Tienda.findIndex((value) => value.id == item.product_id);
+            let info = Tienda[positionProduct];
             listCartHTML.appendChild(newItem);
             newItem.innerHTML = `
-            <div class="image">
-                    <img src="${info.image}">
+            <div class="images">
+                    <img src="${info.IMAGENES}">
                 </div>
                 <div class="name">
                 ${info.name}
@@ -129,14 +129,14 @@ const changeQuantityCart = (product_id, type) => {
 }
 
 const initApp = () => {
-    // get data product
-    fetch('products.json')
+    // agregar datos del producto
+    fetch('/RAIZ/JSON/Tienda.json')
     .then(response => response.json())
     .then(data => {
-        products = data;
+        Tienda = data;
         addDataToHTML();
 
-        // get data cart from memory
+        // agregar datos de las tarjetas
         if(localStorage.getItem('cart')){
             cart = JSON.parse(localStorage.getItem('cart'));
             addCartToHTML();

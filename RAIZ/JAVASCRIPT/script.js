@@ -43,7 +43,7 @@ $('input').on('change', function() {
 
 
 
-// Light/Dark toggle
+// Luz blanca y negra
 const checkbox = document.getElementById('checkbox');
 
 function introAboutLogoTransition() {
@@ -67,7 +67,7 @@ checkbox.addEventListener('change', () => {
 });
 
 
-// scroll button
+// Boton de desplazaminento
 
 let mybutton = document.getElementById("upbtn");
 
