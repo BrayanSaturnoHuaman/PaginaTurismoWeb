@@ -27,17 +27,17 @@ section .screen:hover {
     opacity: 1;
 }
 section .screen:nth-child(1) {
-    background: url(/IMAGENES/Det3-1.jpeg);
+    background: url(https://i.postimg.cc/TYF8bYDx/Det3-1.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
 section .screen:nth-child(2) {
-    background: url(/IMAGENES/Det3-2.jpg);
+    background: url(https://i.postimg.cc/T2kvRc2p/Det3-2.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
 section .screen:nth-child(3) {
-    background: url(/IMAGENES/Det3-3.jpg);
+    background: url(https://i.postimg.cc/cCkpXdkQ/Det3-3.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }

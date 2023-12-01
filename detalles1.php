@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles1</title>
+    <link rel="stylesheet" type="text/css" href="RAIZ/CSS/Detalles1.css">
+<body>
+    <section>
+        <div class="card">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="IMAGENES/Det1-1.jpg"" alt="">
+                </div>
+                <div class="contentBx">
+                    <div>
+                        <h2>Observacion de la naturaleza</h2>
+                        <p>A lo largo del camino, observa la flora y fauna local. Identifica diferentes tipos de plantas, árboles y animales. Presta atención a los sonidos de la naturaleza y disfruta del entorno. Lleva contigo una guía de flora y fauna local para aprender más sobre lo que encuentres.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="IMAGENES/Det1-2.jpg"" alt="">
+                </div>
+                <div class="contentBx">
+                    <div>
+                        <h2>Fotografias en el camino</h2>
+                        <p>Lleva contigo una cámara o usa tu teléfono para capturar imágenes del paisaje circundante. Fotografía vistas panorámicas, elementos naturales interesantes y cualquier aspecto único del entorno. Las fotografías pueden servir como recuerdos y también documentar la belleza del área.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="IMAGENES/Det1-3.jpg"" alt="">
+                </div>
+                <div class="contentBx">
+                    <div>
+                        <h2>Interacción con la Comunidad Local</h2>
+                        <p>Si pasas por pequeñas comunidades o pueblos en tu camino, interactúa con los lugareños. Pregunta sobre la historia local, las tradiciones y la vida cotidiana. Podrías aprender mucho sobre la cultura y la historia del área a través de estas interacciones.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="IMAGENES/Det1-4.jpg"" alt="">
+                </div>
+                <div class="contentBx">
+                    <div>
+                        <h2>Recopilación de Muestras Arqueológicas</h2>
+                        <p>Si la caminata te lleva por áreas donde se permita la recopilación de muestras, como piedras, fragmentos cerámicos u otros artefactos, hazlo de manera responsable y respetuosa. Examina las muestras con cuidado y trata de entender su importancia arqueológica.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="IMAGENES/Det1-5.jpg" alt="">
+                </div>
+                <div class="contentBx">
+                    <div>
+                        <h2>Meditación o Reflexión</h2>
+                        <p>Aprovecha la caminata para la meditación o la reflexión tranquila. Encuentra un lugar sereno para sentarte y contemplar el paisaje. La conexión con la naturaleza y el entorno histórico puede proporcionar un ambiente propicio para la introspección. </p>
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+        <div class="card">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="IMAGENES/Det1-6.jpg"" alt="">
+                </div>
+                <div class="contentBx">
+                    <div>
+                        <h2>Pesca en el rio</h2>
+                        <p>Durante la caminata puedes realizar pesca en el segundo rio, podria servir como una actividad distractiva o relajante para aquellas personas que les gusta diversion.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body> 
+</html> 

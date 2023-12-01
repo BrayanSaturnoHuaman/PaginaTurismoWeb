@@ -1,0 +1,223 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Story by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="RAIZ/assets/css/main.css"">
+		<noscript><link rel="stylesheet" type="text/css" href="RAIZ/assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="divided">
+
+				<!-- UNO -->
+					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right" id="HistoriaCultural">
+						<div class="content">
+							<h1>HISTORIA CULTURAL</h1>
+							<p class="major">La zona de Pasco, en Perú, cuenta con el lugar arqueológico de Chawin Punta, el cual ha sido objeto de estudio e investigación. Este sitio se ha relacionado con la interacción interregional durante el período inicial tardío en la región central de Perú. Se ha sugerido que el surgimiento del fenómeno Chavín en el segundo y primer milenio a.C. puede estar relacionado con el desarrollo de sociedades arqueológicas en esta región. Además, se han llevado a cabo análisis arqueológicos en Chawin Punta, lo que demuestra un interés constante en comprender la historia y la cultura de esta zona. Los descubrimientos en la región, como las cabezas clavas encontradas en la comunidad de Chaupimarca, han contribuido significativamente al conocimiento de la historia de la región de Pasco.</p>
+						</div>
+						<div class="image">
+							<img src="IMAGENES/HistoriaSC.jpeg" alt="" />
+						</div>
+					</section>
+				<!-- DOS -->
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="Aventura">
+						<div class="content">
+							<h2>AVENTURA</h2>
+							<p>La región de Pasco cuenta con sitios arqueológicos de gran importancia, como Chawin Punta, que han sido objeto de estudio e investigación. Estos descubrimientos arqueológicos, entre ellos las cabezas clavas encontradas en la comunidad de Chaupimarca, han aportado de manera significativa al conocimiento de la historia de Pasco. La historia y cultura rica de esta región brindan un entorno ideal para explorar diversas aventuras y descubrimientos.</p>
+						</div>
+						<div class="image">
+							<img src="IMAGENES/AventuraSC.jpeg" alt="" />
+						</div>
+					</section>
+
+				<!-- TRES -->
+					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id="Naturaleza">
+						<div class="content">
+							<h2>NATURALEZA</h2>
+							<p>El centro poblado San Cristobal de Chaupimarca
+								no solo cuenta con un clima agradable, ya que tiene un
+								clima templado dondel el frio y el calor no son
+								tan exagerados, si no que tambien cuenta con una vista 
+								impresionante de casi todo el valle de Chaupihuaranga.
+								Tiene una quebrada que en tiemporada de lluvias entre febrero y abril
+								se puede conseguir frutos tales como la tuna, la guinda, la mora y el tumbo.
+								De la misma manera en las alturas puedes disfrutar una hermosa vista de las rocas
+								con figuras a ciertos aniamles o cosas por efecto de la erosion.
+							</p>
+						</div>
+						<div class="image">
+							<img src="IMAGENES/NaturalezaSC.jpg" alt="" />
+						</div>
+					</section>
+
+				<!-- CUATRO -->
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="Gastronomia">
+						<div class="content">
+							<h2>GASTRONOMIA</h2>
+							<p>Al ubicarse en la sierra central del pais, el centro poblado
+								tiene una gran variedad de comidas gastronimicas
+								en las que destacan: <br>
+								COMIDAS <br>
+								- El caldo de mote	<br>
+								- El Patache	<br>
+								- El Colish Puchero	<br>
+								- Tortilla de trigo<br>
+								- Segundo de arveja <br>
+								- Locro de papas <br>
+								BEBIDAS <br>
+								- Chicha de jora<br>
+								POSTRES<br>
+								- Pishga<br>
+								- Mazamorra de calabaza<br>
+							</p>
+							
+						</div>
+						<div class="image">
+							<img src="IMAGENES/Gastronomia.jpeg" alt="" />
+						</div>
+					</section>
+
+				<!-- CINCO -->
+					<section class="wrapper style1 align-center" id="Vivencias">
+						<div class="inner">
+							<h2>VIVENCIAS</h2>
+							<p>El centro poblado San Cristobal de Chaupimarca cuenta 
+								con actividades vivenciales muy tradicionales de la
+								sierra peruana, desde reuniones y faenas comunales hasta festividades.
+							</p>
+						</div>
+						<!-- GALERIA -->
+							<div class="gallery style2 medium lightbox onscroll-fade-in">
+								<article>
+									<a href="IMAGENES/SembrioMaiz.jpg" class="image">
+										<img src="IMAGENES/SembrioMaiz.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Sembrio de maiz</h3>
+										<p>Actividad que se realiza en el mes de 
+											octubre con una tradicion particular.
+										</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Detalles</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="IMAGENES/RayguanRaymi.jpeg" class="image">
+										<img src="IMAGENES/RayguanRaymi.jpeg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Rayguan Raymi</h3>
+										<p>Festividad que se celebra el 24 de junio de cada año</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Detalles</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="IMAGENES/FaenasComunales.jpg" class="image">
+										<img src="IMAGENES/FaenasComunales.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Faenas comunales</h3>
+										<p>Son las actividades que se realizan de 
+											manera conjunta entre toda los comuneros
+											para mejorar las nececidades de la poblacion.
+										</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Detalles</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="IMAGENES/ReunionComunal.jpeg" class="image">
+										<img src="IMAGENES/ReunionComunal.jpeg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Reuniones comunales</h3>
+										<p>Se tratan temas de interes poblacional
+											entre los comuneros de la localidad.
+										</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Detalles</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="IMAGENES/ChacraManay.jpg" class="image">
+										<img src="IMAGENES/ChacraManay.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Chacramanay</h3>
+										<p>El barbecho que se realiza en el mes de marzo
+											con las tradicionales chaquitacllas
+										</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Detalles</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="IMAGENES/CampoHuaylas.jpg" class="image">
+										<img src="IMAGENES/CampoHuaylas.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Campo Huaylas</h3>
+										<p>Una tradicion que se va perdiendo,
+											se festeja en el mes de febrero en epocas
+											de carnavales. Es una tradicion ansestral de 
+											la localidad.
+										</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Detalles</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="IMAGENES/CopaToro.jpg" class="image">
+										<img src="IMAGENES/CopaToro.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Copa toro</h3>
+										<p>Se realiza desde el 27 al 30 de julio,
+											es una festividad meramente deportiva 
+											donde el premio al ganador es un toro.
+										</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Detalles</span></li>
+										</ul>
+									</div>
+								</article>
+								
+							</div>
+					</section>
+				<!-- Footer -->
+					<footer class="wrapper style1 align-center">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="#" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
+							</ul>
+							<p>&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="RAIZ/assets/js/jquery.min.js"></script>
+			<script src="RAIZ/assets/js/jquery.scrollex.min.js"></script>
+			<script src="RAIZ/assets/js/jquery.scrolly.min.js"></script>
+			<script src="RAIZ/assets/js/browser.min.js"></script>
+			<script src="RAIZ/assets/js/breakpoints.min.js"></script>
+			<script src="RAIZ/assets/js/util.js"></script>
+			<script src="RAIZ/assets/js/main.js"></script>
+
+	</body>
+</html>

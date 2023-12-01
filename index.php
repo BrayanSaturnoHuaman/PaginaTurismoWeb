@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SANCRISTOBAL</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="RAIZ/CSS/Estilos.css">
+    <link rel="stylesheet" type="text/css" href="RAIZ/CSS/Responsivo.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="IMAGENES/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="IMAGENES/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="IMAGENES/favicon-16x16.png">
+    <!--<link rel="manifest" href="/site.webmanifest"> -->
+</head>
+<body onload='if (window.location.href.substr(window.location.href.length - 6) == "#about") { introAboutLogoTransition(); }'>
+    <!--Barra de navegacion == vista principal-->
+    <nav class="navbar glass" style="height: 70px;">
+        <span><a href="#home" style="display:flex; align-items: center;"><img class="img2" src="IMAGENES/mountain.png" width="40"
+            style="margin: -25px -10px -25px -20px"><h1 class="logo">&nbsp;Sancristobal</h1></a></span>
+        <ul class="nav-links">
+            <li><a href="#menu" id="pri" class="active cir_border">Menu</a></li>
+            <li><a href="#experiencia" id="quint" class="cir_border">Experiencias</a></li>
+            <li><a href="#eventos"  id="sec" class="cir_border">Excursiones</a></li>
+            <li><a href="#explorar" id="tri" class="cir_border">Explorar</a></li>
+            <li><a href="#nosotros" id="quad" class="cir_border">Nosotros</a></li>            
+            <li><a href="#contacto" id="hex" class="cir_border">Contacto</a></li>
+            <li><a href="logueo.php" id="hex" class="cir_border">Login</a></li>
+            <!-- Modo claro y oscuro>-->
+                <li><div>
+                <input type="checkbox" class="checkbox dark" id="checkbox">
+              <label for="checkbox" class="label">
+                <i class="fa fa-moon-o"></i>
+                <i class='fa fa-sun-o'></i>
+                <div class='ball'>
+              </label>
+            </div></
+        </ul>
+        <img src="IMAGENES/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+    <!--barra de navegacion-->
+    <!-- Menu-->
+    <header id="menu">     
+        <div class="header-content">            
+            <h2  id="quote">Explore la naturaleza</h2>
+            <div class="line"></div>
+            <h1 >Un maravilloso regalo </h1>
+            <a href="leermas1.php" class="ctn" onclick='removeall(); $("#quad").css("border", "2px solid whitesmoke"); $("#quad").css("border-radius", "20px");'>Leer mas</a>
+        </div>
+    </header>
+    <!-- experiencias -->
+    <div class="title">
+        <h1 class="font-color">Experiencias </h1>
+        <div class="line"></div>
+    </div>
+    <section class="experiencias" id="experiencia">
+        <!-- Primea experinecia ==> Historico cultural-->
+        <div class="concard">
+            <img src="IMAGENES/historia.jpg" class="pfp">
+            <div class="text">
+                <h1>Historico Cultural</h1>
+            </div>
+            <div class="logolink">
+                <a href="experiencias.php#HistoriaCultural"_blank"><img src="IMAGENES/Arrow right.svg"
+                        alt="navegar-logo" class="navegar-logo"></a>
+            </div>
+        </div>
+        <!-- Segunda experincia ==> AVENTURA-->
+        <div class="concard">
+            <img src="IMAGENES/aventura.jpg" alt="profile-picture" class="pfp">
+            <div class="text">
+                <h1>Aventura</h1>
+            </div>
+            <div class="logolink">
+                <a href="experiencias.php#Aventura" target="_blank"><img src="IMAGENES/Arrow right.svg"
+                        alt="Navegar-Logo" class="navegar-logo"></a>
+            </div>
+        </div>
+        <!-- Tercera experiencia ==> NATURALEZA-->
+        <div class="concard">
+            <img src="IMAGENES/naturaleza.jpeg" alt="profile-picture" class="pfp">
+            <div class="text">
+                <h1>Naturaleza</h1>
+            </div>
+            <div class="logolink">
+                <a href="experiencias.php#Naturaleza" target="_blank"><img src="IMAGENES/Arrow right.svg" alt="Navegar-logo"
+                        class="navegar-logo"></a>
+            </div>
+        </div>
+        <!-- Cuarta experiencia ==> GASTRONOMIA -->
+        <div class="concard">
+            <img src="IMAGENES/gastronomia.jpg" alt="profile-picture" class="pfp">
+            <div class="text">
+                <h1>Gastronomia</h1>
+            </div>
+            <div class="logolink">
+                <a href="experiencias.php#Gastronomia" target="_blank"><img src="IMAGENES/Arrow right.svg" alt="Navegar-logo"
+                        class="navegar-logo"></a>
+            </div>
+        </div>
+        <!-- Quinta experiencia == Vivencias -->
+        <div class="concard">
+            <img src="IMAGENES/tradiciones.jpg" alt="profile-picture" class="pfp">
+            <div class="text">
+                <h1>Vivencias</h1>
+            </div>
+            <div class="logolink">
+                <a href="experiencias.php#Vivencias" target="_blank"><img src="IMAGENES/Arrow right.svg"
+                        alt="Navegar-Logo" class="navegar-logo"></a>
+            </div>
+        </div>
+        <!-- Sexta experiencia == Tienda de artesanias-->
+        <div class="concard">
+            <img src="IMAGENES/artesanias.jpeg" alt="profile-picture" class="pfp">
+            <div class="text">
+                <h1>Tienda de artesanias</h1>
+            </div>
+            <div class="logolink">
+                <a href="tienda.php" target="_blank"><img src="IMAGENES/Arrow right.svg"
+                        alt="Navegar-Logo" class="navegar-logo"></a>
+            </div>
+        </div>
+    </section>
+    <!-- Hasta aqui las experiencias -->
+    <!--Eventos-->
+    <section class="events" id="eventos">
+        <div class="container">
+        <div class="title">
+            <h1 class="dark">Proximos eventos</h1>
+            <div class="line"></div>
+        </div>
+        <!--Primer evento-->
+        <div class="row">
+            <article class="card col">
+                <img class="card-img" src="IMAGENES/caminata1.jpg">
+                <h4 class="dark">Caminata al centro arqueologico</h4>
+                <p class="font-color">La caminata al centro arqueologico es, sin duda, una de las actividades favoritas de los visitantes.</p>
+                <a href="detalles1.php" class="ctn">Detalles</a>
+            </article>
+            <!--Segundo evento-->
+            <article class="card col">
+                <img src="IMAGENES/velada.jpg">
+                <h4 class="dark">Noches de velada</h4>
+                <p class="font-color">Si tienes un grupo de viaje puedes quedarte a domir una noche en las pequeñas chozas que tiene se tiene en el centro arqueologico.</p>
+                <a href="detalles2.php" class="ctn">Detalles</a>
+            </article>
+            <!--Tercer evento-->
+            <article class="card col">
+                <img src="IMAGENES/imagen2.jpg">
+                <h4 class="dark">Rayguan Raymi</h4>
+                <p class="font-color">El 24 y 25 de junio de cada se celebra el Rayguan Raymi, una tradicion sin igual dentro de la provincia. Ahi se exponen todas las costumbres de la localidad.</p>
+                <a href="detalles3.php" class="ctn">Detalles</a>
+            </article>
+        </div>
+    </div>
+    </section>
+    <!--Hasta aqui son los eventos-->
+
+    <!--Explorar-->
+    <section class="explore" id="explorar">
+        <div class="explore-content">
+            <h1>EXPLORE SAN CRISTOBAL</h1>
+            <div class="line"></div>
+            <p>“Viajar hace que uno sea modesto. ves que lugar tan pequeño ocupas en el mundo”– Gustav Flaubert
+            </br>Explorar hará que quieras empacar tu bolso, reservar y viajar. </p>
+            <a href="explorar.php" class="ctn">Explorar mas</a>
+        </div>
+    </section>
+    <!--Hasta aqui es Explorar-->
+
+    <!--Excursiones-->
+    <section class="tours">
+        <div class="container row">
+            <div class="col content-col">
+                <h1 class="font-color">PROXIMOS VIAJES Y DESTINOS</h1>
+                <div class="line"></div>
+                <p>Miercoles 27 sept 2023 : Tour Desde la terminal terrestre de Yanahuanca. </br>
+                   Domingo 1 oct 2023 : Tour desde la ciudad de Cerro de Pasco.</br>
+                   Miercoles 4 oct 2023 : Tour desde la ciudad de Lima. </br> 
+                    y mucho mas ......
+                 </p>
+                <a href="#" class="ctn">Saber mas</a>
+            </div>
+            <!--Imagenes de proximos viajes y destinos-->
+            <div class="image-col">
+                <div class="image-gallery">
+                    <img src="IMAGENES/imagen3.jpg" alt="">
+                    <img src="IMAGENES/imagen4.jpg" alt="">
+                    <img src="IMAGENES/imagen5.jpg" alt="">
+                    <img src="IMAGENES/imagen6.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <br><br><br><br>
+    </section>
+    <!--Hasta aqui las excursiones-->
+        <!-- Sobre nosotros -->
+<!-- Sobre Nosotros -->
+<section id="nosotros">
+    <div class="title">
+        <h1 class="font-color">Sobre nosotros</h1>
+        <div class="line"></div>
+    </div>
+    <br>
+    <div id="about_us"><!-- sOBRE NOSOTROS -->
+        <div class="boxx">
+            <div class="containerx">
+                <input type="radio" name="slider" id="item-1" checked>
+                <input type="radio" name="slider" id="item-2">
+                <input type="radio" name="slider" id="item-3">
+              <div class="cards">
+                <label class="cardt" for="item-1" id="col-img-1">
+                  <img src="IMAGENES/carousel1.jpg">
+                </label>
+                <label class="cardt" for="item-2" id="col-img-2">
+                  <img src="IMAGENES/carousel2.jpg">
+                </label>
+                <label class="cardt" for="item-3" id="col-img-3">
+                  <img src="IMAGENES/carousel3.jpg">
+                </label>                    
+            </div>
+            <span id="about-quad"><a href="#menu"><center><h1 style="font-family: var(--ff-montserrat); color: white;">Find that</h1><br><img class="img2" src="IMAGENES/mountain_dark.jpg" width="200" style="border-radius: 12%;"><br><h1 class="logo" style="font-size: 50px;">ADVENTURE</h1></a></center></span>
+        </div>
+    </div>
+</section>
+    <!-- Hasta aqui sobre nosotros -->
+
+    
+    <!-- contacto -->
+    <section id="contacto">
+        <div class="title">
+            <h1 class="font-color">Contactanos</h1>
+            <div class="line"></div>
+        </div>
+        <div class="contact_us">
+            <form class="cform" action="" method="post">
+                <div class="crow-message">
+                    <h1 class="color">Envianos un mensaje</h1>
+                    <div></div>
+                </div>
+                <div class="crow-in">
+                        <input type="text" id="name" name="name" placeholder="Tu nombre">
+                        <input type="text" id="email" name="email" placeholder="Tu email">
+                </div>
+                <div class="crow">
+                    <div class="ccol-left">
+                        <select name="country" id="country">
+                            <option value="India">Peru</option>
+                            <option value="Russia">Rusia</option>
+                            <option value="usa">USA</option>
+                            <option value="Japan">Japon</option>
+                            <option value="France">Argentina</option>
+                            <option value="Brazil">Brazil</option>
+                            <option value="España">España</option>
+                            <option value="Mexico">Mexico</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="crow">
+                    <div class="ccol-left">
+                        <textarea type="text" id="remarks" name="remarks" placeholder="Tus comentarios....." style="height: 150px;"></textarea>
+                    </div>
+                </div>
+                <input class="crow-s" type="submit" value="Enviar">
+            </form>
+            <div class="cbox">
+                <div>
+                    <p class="cbox-message">¿Prefieres otra forma?<br>Comuníquese con nosotros utilizando los detalles que se proporcionan a continuación</p>
+                <div class="cbox-line"></div>
+                </div>
+                <div class="c_boxx">
+                    <a href="mailto:turismo@sancristobal.com.pe"><i class="fa fa-envelope"></i>
+                        Email: turismo@sancristobal.com.pe
+                    </a>
+                </div>
+                <div class="c_boxx">
+                    <a href="tel:+51-12345-67890"><i class="fa fa-phone"></i>
+                        Telefono: (+51) 12345-67890
+                    </a>
+                </div>
+                <div class="c_boxx">
+                    <a href="https://maps.app.goo.gl/KzBC8XErA7CXGfrNA"><i class="fa fa-map-marker"></i>
+                        Ubicacion: San Cristobal de Chaupimarca - Tapuc - Daniel Alcides Carrion - Pasco - Peru
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hasta aqui contactos  -->
+    <!-- Deslizamiento hacia arriba -->
+    <i class="fa fa-chevron-up" onclick="topFunction()" id="upbtn"></i>
+    <!-- Final -->
+    <!--Pie de pagina-->
+    <section class="footer">
+        <span>Creado por Brayan Saturno | &#169 2023 Todos los derechos reservados.</span>
+        <!--REDES SOCIALES-->
+        <div class="social">
+            <li>
+                <a href="https://www.facebook.com/brayan.saturnohuaman.5" target="_blank" rel="noreferrer"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/brayansh_14/" target="_blank" rel="noreferrer"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/brayan-saturno-huaman-6285441a9/"_blank" rel="noreferrer"><i class="fa fa-linkedin-square"></i></a>
+            </li>
+        </div>
+    </section>
+    <!--Hasta aqui el pie de pagina-->
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="RAIZ/JAVASCRIPT/script.js"></script>
+</body>
+</html>

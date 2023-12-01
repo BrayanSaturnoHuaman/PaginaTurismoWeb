@@ -130,7 +130,7 @@ const changeQuantityCart = (product_id, type) => {
 
 const initApp = () => {
     // agregar datos del producto
-    fetch('/RAIZ/JSON/Tienda.json')
+    fetch('RAIZ/JSON/Tienda.json')
     .then(response => response.json())
     .then(data => {
         Tienda = data;

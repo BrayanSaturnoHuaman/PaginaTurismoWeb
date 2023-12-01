@@ -133,7 +133,7 @@ html {
 header {
   width: 100vw;
   height: 100vh;
-  background-image: url("/IMAGENES/chaupimarca.jpg");
+  background-image: url("https://i.postimg.cc/y7y6GPd1/chaupimarca.jpg");
   background-position: bottom;
   background-attachment: fixed;
   background-size: cover;
@@ -263,7 +263,7 @@ section {
 .explore {
   width: 100%;
   height: 100vh;
-  background-image: url(/IMAGENES/bg2.png);
+  background-image: url(https://i.postimg.cc/TYZzV5g9/bg2.png);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
